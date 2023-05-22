@@ -1,0 +1,41 @@
+@media screen and (max-width: 1200px) {
+    .header__nav{
+        justify-content: center;
+        gap: 50px;
+    }
+    .collection__wrap{
+        flex-wrap: wrap;
+    }
+    .collection__cards{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__wrap{
+        justify-content: center;
+        gap: 50px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .header__nav{
+        flex-direction: column; 
+        gap: 10px;
+        padding-top: 20px;
+    }
+    .list__item-link{
+        font-size: 14px;
+    }
+    .footer__wrap{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 720px) {
+    .nav__list{
+        flex-wrap: wrap;
+    }
+    .collection__big-card{
+        width: 100%;  
+    }
+    .big__card-img{
+        width: 100%;
+    }
+}
